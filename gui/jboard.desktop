@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=jboard
+Exec=jboard --no-sandbox
+Icon=/snap/jboard/current/gui/icon.png
+Type=Application
+StartupNotify=true
