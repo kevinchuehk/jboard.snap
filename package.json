@@ -1,6 +1,6 @@
 {
   "name": "jboard",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "src/main.js",
   "license": "MIT",
   "author": "YPCloud",
@@ -22,7 +22,8 @@
       "confinement": "strict",
       "summary": "The jboard",
       "grade": "stable",
-      "desktop": "gui/jboard.desktop"
+      "desktop": "gui/jboard.desktop",
+      "plugs": ["desktop", "desktop-legacy", "home", "x11", "unity7", "browser-support", "network", "gsettings", "pulseaudio", "opengl"]
     }
   },
   "devDependencies": {
